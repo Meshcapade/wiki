@@ -1,5 +1,5 @@
 ---
-redirect_from: "/"
+permalink: /
 ---
 
 # git-wiki-skeleton
