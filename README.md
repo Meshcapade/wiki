@@ -1,5 +1,6 @@
 ---
 layout: git-wiki-default
+redirect_from: "/"
 ---
 
 # git-wiki-skeleton
