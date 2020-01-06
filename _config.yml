@@ -1,5 +1,5 @@
 title: git-wiki-skeleton
-remote_theme: Drassil/git-wiki-theme@master
+remote_theme: Drassil/git-wiki-theme
 description: Git-Wiki skeleton repository that can be used as a base for your wiki
 defaults:
  -
