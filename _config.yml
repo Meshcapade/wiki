@@ -1,6 +1,8 @@
 title: git-wiki-skeleton
 remote_theme: Drassil/git-wiki-theme@master
 description: Git-Wiki skeleton repository that can be used as a base for your wiki
+plugins:
+ - jekyll-readme-index
 defaults:
  -
     scope:
