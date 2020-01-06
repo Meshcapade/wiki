@@ -1,5 +1,4 @@
 ---
-layout: git-wiki-default
 redirect_from: "/"
 ---
 
