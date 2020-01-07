@@ -4,7 +4,8 @@ services:
     build: 
       context: .
       args:
-        platform: github
+        with: github
+        without: gitlab
     ports:
      - 4000
      - 35729
@@ -17,7 +18,8 @@ services:
     build: 
       context: .
       args:
-        platform: gitlab
+        with: gitlab
+        without: github
     ports:
       - 4000
       - 35729
