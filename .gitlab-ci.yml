@@ -7,6 +7,7 @@ variables:
 before_script:
   - bundle install 
   - gem uninstall -I jekyll-github-metadata
+  - bundle clean --force
   - gem install jekyll-gitlab-metadata
 
 test:
