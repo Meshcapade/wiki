@@ -4,7 +4,7 @@ services:
     build: 
       context: .
       args:
-        without: gitlab
+        gemfile: Gemfile
     ports:
      - 4000
      - 35729
@@ -17,10 +17,10 @@ services:
     build: 
       context: .
       args:
-        without: github
+        gemfile: Gemfile.gitlab
     ports:
       - 4000
       - 35729
     volumes:
       - .:/srv/jekyll
-    command: bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload"
+    command: 'bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload'

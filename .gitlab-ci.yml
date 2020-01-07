@@ -5,9 +5,7 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-  - bundle config set without github
-  - bundle install
-  - 'echo "github: [metadata]" >> _config.yml'
+  - bundle install --gemfile=Gemfile.gitlab
   - 'echo "service: gitlab" >> _config.yml'
 
 test:
