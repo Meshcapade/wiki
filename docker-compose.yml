@@ -1,7 +1,10 @@
 version: '3.7'
 services:
-  git-wiki-skeleton:
-    build: .
+  github-wiki-skeleton:
+    build: 
+      context: .
+      args:
+        platform: github
     ports:
      - 4000
      - 35729
@@ -9,16 +12,15 @@ services:
      - 35729:35729
     volumes:
      - .:/srv/jekyll
-    command: bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload
+    command: bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload
   gitlab-wiki-skeleton:
-    build: .
+    build: 
+      context: .
+      args:
+        platform: gitlab
     ports:
       - 4000
       - 35729
     volumes:
       - .:/srv/jekyll
-    command: >
-      bash -c "bundle install && 
-        gem uninstall -I jekyll-github-metadata &&
-        gem install jekyll-gitlab-metadata &&
-        bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload"
+    command: bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload"

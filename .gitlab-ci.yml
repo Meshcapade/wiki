@@ -5,10 +5,7 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-  - bundle install 
-  - gem uninstall -I jekyll-github-metadata
-  - bundle clean --force
-  - gem install jekyll-gitlab-metadata
+  - bundle install --with=gitlab
 
 test:
   stage: test
