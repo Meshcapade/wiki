@@ -3,4 +3,4 @@ This is a [skeleton](skeleton) repository that can be used as a template to boot
 
 For documentation, installation guide and demo of git-wiki-theme visit [THIS PAGE](http://drassil.github.io/git-wiki/)
 
-Version: 1.0.1
+Version: 1.0.2
