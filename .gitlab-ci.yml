@@ -8,16 +8,6 @@ before_script:
   - bundle install --gemfile=Gemfile.gitlab
   - 'echo "service: gitlab" >> _config.yml'
 
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  only:
-  - master
-
 pages:
   stage: deploy
   script:
