@@ -8,6 +8,7 @@ before_script:
   - bundle config set without github
   - bundle install
   - 'echo "github: [metadata]" >> _config.yml'
+  - 'echo "service: gitlab" >> _config.yml'
 
 test:
   stage: test
