@@ -1,0 +1,30 @@
+image: ruby:2.7.0
+
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+before_script:
+  - bundle install 
+  - gem uninstall -I jekyll-github-metadata
+  - gem install jekyll-gitlab-metadata
+
+test:
+  stage: test
+  script:
+  - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+    - test
+  only:
+  - master
+
+pages:
+  stage: deploy
+  script:
+  - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

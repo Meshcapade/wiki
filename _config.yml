@@ -1,6 +1,9 @@
 remote_theme: Drassil/git-wiki-theme@master
 # (string) Title of your wiki
 title: "git-wiki-skeleton"
+# (string) if you've installed your wiki in subfolder, you must change this configuration
+# with your folder name, otherwise leave it empty
+baseurl: "/git-wiki-skeleton/"
 # (string) Description of your wiki
 description: 
 # (boolean) Enable/disable wiki page list in sidebar
@@ -93,13 +96,23 @@ defaults:
 sass:
     style: compressed
 plugins:
- - jekyll-feed
- - jekyll-redirect-from
- - jekyll-seo-tag
- - jekyll-sitemap
- - jekyll-avatar
- - jemoji
- - jekyll-mentions
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jemoji
+  - jekyll-gitlab-metadata
 
 
 #
