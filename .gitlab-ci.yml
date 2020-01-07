@@ -5,7 +5,8 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-  - bundle install --without github
+  - bundle config set without github
+  - bundle install
 
 test:
   stage: test
