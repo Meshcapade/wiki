@@ -4,7 +4,6 @@ services:
     build: 
       context: .
       args:
-        with: github
         without: gitlab
     ports:
      - 4000
@@ -18,7 +17,6 @@ services:
     build: 
       context: .
       args:
-        with: gitlab
         without: github
     ports:
       - 4000
