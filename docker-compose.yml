@@ -3,24 +3,29 @@ services:
   github-wiki-skeleton:
     build: 
       context: .
-      args:
-        gemfile: Gemfile
+      dockerfile: .env-files/Dockerfile.github
     ports:
-     - 4000
-     - 35729
      - 4000:4000
      - 35729:35729
+    environment: 
+     - BUNDLE_GEMFILE=.env-files/Gemfile.github
     volumes:
      - .:/srv/jekyll
-    command: bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload
+     - github_site:/srv/jekyll/_site
+    command: bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload
   gitlab-wiki-skeleton:
     build: 
       context: .
-      args:
-        gemfile: Gemfile.gitlab
+      dockerfile: .env-files/Dockerfile.gitlab
     ports:
-      - 4000
-      - 35729
+      - 4000:4000
+      - 35729:35729
+    environment: 
+     - BUNDLE_GEMFILE=.env-files/Gemfile.gitlab
     volumes:
-      - .:/srv/jekyll
-    command: 'bundle exec jekyll serve --host 127.0.0.1 --force_polling --livereload'
+     - .:/srv/jekyll
+     - gitlab_site:/srv/jekyll/_site
+    command: 'bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload'
+volumes: 
+  github_site:
+  gitlab_site:

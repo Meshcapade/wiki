@@ -15,4 +15,4 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-titles-from-headings"
 gem "jemoji"
-gem "jekyll-gitlab-metadata" # instead of github metadata
+gem "jekyll-gitlab-metadata"

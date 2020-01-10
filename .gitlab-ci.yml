@@ -6,7 +6,6 @@ variables:
 
 before_script:
   - bundle install --gemfile=Gemfile.gitlab
-  - 'echo "service: gitlab" >> _config.yml'
 
 pages:
   stage: deploy
