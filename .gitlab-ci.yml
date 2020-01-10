@@ -6,7 +6,7 @@ variables:
   BUNDLE_GEMFILE: .env-files/Gemfile.gitlab
 
 before_script:
-  - bundle install --gemfile=.env-file/Gemfile.gitlab
+  - bundle install --gemfile=.env-files/Gemfile.gitlab
 
 pages:
   stage: deploy
