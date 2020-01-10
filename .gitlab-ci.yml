@@ -3,9 +3,10 @@ image: ruby:2.7.0
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
+  BUNDLE_GEMFILE: .env-files/Gemfile.gitlab
 
 before_script:
-  - bundle install --gemfile=Gemfile.gitlab
+  - bundle install --gemfile=.env-file/Gemfile.gitlab
 
 pages:
   stage: deploy
