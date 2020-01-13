@@ -29,7 +29,7 @@ logo_url:
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
 google_analytics: 
 # (string) folder where wiki pages are stored, it's needed for tool buttons
-wiki_folder: wiki
+wiki_folder: "wiki"
 # (boolean) if you're using github wiki as submodule then this config
 # must be enabled to allow tool buttons to work properly
 use_github_wiki: false
@@ -46,6 +46,10 @@ search_engine : "js"
 # Setting google custom search engine for google
 # cse search bar (https://cse.google.it/cse/)
 google_cse_token: 
+
+# (string) path of site root. Normally it's must be empty because _config.yml resides in the root of your repository.
+# If you have _config.yml and your site in a subfolder, then change this config accordly 
+site_root: 
 
 #
 # Jekyll configurations
