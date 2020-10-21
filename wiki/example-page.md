@@ -1,3 +1,4 @@
-## Example page
+## SMPL
 
-This is an example page. You can edit it or create a [new one](new_page.md)
+SMPL decomposes body shape into identity-dependent shape and non-rigid pose-dependent shape based on a vertex-based skinning approach that uses corrective blend shapes (blend shape represented as a vector of concatenated vertex offsets).
+
