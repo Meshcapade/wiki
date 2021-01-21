@@ -23,13 +23,9 @@
 
 # Other models
 
-## SMPL-X
-
-## STAR
-
-## SMIL
-
-## VIBE
-
+- SMPL-X
+- STAR
+- SMIL
+- VIBE
 
 # Licenses
