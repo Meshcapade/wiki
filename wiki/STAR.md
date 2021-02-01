@@ -23,7 +23,14 @@ offsets. The joints have no influence on the gray mesh vertices. Unlike STAR, SM
 long-range displacements.*
 
 
-# Sources
+# Source Code
+
+- [Public Repository for Non-Commerical Scientific Research Purposes](https://github.com/ahmedosman/STAR)
+
+- [Commericial License](#)
+
+
+# Resources
 
 [Paper](https://ps.is.mpg.de/uploads_file/attachment/attachment/618/star_paper.pdf)
 

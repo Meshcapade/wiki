@@ -14,7 +14,13 @@ VIBE takes *~16 millisecs/image* to run on an RTX2080Ti machine on a video of 5 
 cropped images, the middle rows show the predicted body mesh from the camera view, and the bottom row shows the
 predicted mesh from an alternate view point.*
 
-# Sources
+# Source Code
+
+- [Public Repository for Non-Commerical Scientific Research Purposes](https://github.com/mkocabas/VIBE)
+
+- [Commericial License](#)
+
+# Resources
 
 [Paper](https://arxiv.org/abs/1912.05656)
 

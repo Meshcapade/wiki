@@ -13,10 +13,14 @@ Since the model is based on SMPL, it can be readily integrated into animation an
 
 Quantitatively, SMIL's metric accuracy is *~ 2.5 mm*.
 
-
 ![](../assets/smil.png)
 
-# Sources
+# Source Code
+
+- [Commericial License](#)
+
+
+# Resources
 
 [Paper](http://files.is.tue.mpg.de/black/papers/miccai18.pdf)
 
