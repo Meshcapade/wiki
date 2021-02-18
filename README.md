@@ -4,16 +4,19 @@ Welcome to Meshcapade Wiki!
 
 # SMPL
 
-SMPL, our core technology, is a realistic 3D model of the human body that is based on skinning and blend shapes and is learned from thousands of 3D body scans. Learn more about SMPL is available [here](/wiki/SMPL).
+SMPL, our core technology, is a realistic 3D model of the human body that is based on skinning and blend shapes and is learned from thousands of 3D body scans. [Learn more about SMPL](/wiki/SMPL).
 
-## Getting started with SMPL in Python
+### Getting started with SMPL in Python
 
 Details about setting up SMPL in Python is available [here](/wiki/SMPL#getting-started-with-smpl-in-python). Note that you would need an SMPL-Model license to run this code.
 
+More about SMPL add-ons is available [here](/wiki/SMPL#add-ons).
 
-More about SMPL addons is available [here](/wiki/SMPL#add-ons).
+### Textured Samples
 
-## Maya/Blender
+[Download textured samples here!](https://app.box.com/s/d2qefptvgdlstz6ek9xwlip1fnoatksw)
+
+### Maya/Blender Plug-ins
 
 Maya/Blender Plug-ins makes it easier to run SMPL FBX models.
 Find the newest version to download [here](https://github.com/Meshcapade/SMPL_maya_plugin/releases).
@@ -51,6 +54,7 @@ you want to update and then click the appropriate button on the UI.
 
 [How to use Meshcapade's SMPL Maya plugin for automating pose-corrective shapes](https://www.youtube.com/watch?v=LU4pq1HhxXc)
 
+
 **Current versions supported:**
 
 Mac OSX: Maya 2014+
@@ -78,4 +82,4 @@ We are working towards removing this dependency.
 
 # Licenses
 
-Request for [Commericial Licenses](#), [Research Licences](#), [Trail Licenses](#) and for [Non-Commerical Scientific Research Purposes](#).
+Request a License for [commericial](#), [Research](#), [Trail](#) or for [Non-Commerical Scientific Research Purposes](#).
