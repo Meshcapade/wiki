@@ -2,7 +2,7 @@
 
 Welcome to Meshcapade Wiki! 
 
-# SMPL
+## SMPL
 
 SMPL, our core technology, is a realistic 3D model of the human body that is based on skinning and blend shapes and is learned from thousands of 3D body scans. [Learn more about SMPL](/wiki/SMPL).
 
@@ -12,9 +12,9 @@ Details about setting up SMPL in Python is available [here](/wiki/SMPL#getting-s
 
 [More about SMPL add-ons is available here](/wiki/SMPL#add-ons).
 
-### Textured Samples
+### Sample Textures
 
-[Download textured samples here!](https://app.box.com/s/d2qefptvgdlstz6ek9xwlip1fnoatksw)
+[Download sample textures for SMPL body model here!](https://github.com/Meshcapade/SMPL_texture_samples/archive/main.zip)
 
 ### Maya/Blender Plug-ins
 
@@ -82,4 +82,4 @@ We are working towards removing this dependency.
 
 # Licenses
 
-Request a License for [commericial](#), [Research](#), [Trail](#) or for [Non-Commerical Scientific Research Purposes](#).
+Request a License for [Commericial](#), [Research](#), [Trail](#) or for [Non-Commerical Scientific Research Purposes](#).
