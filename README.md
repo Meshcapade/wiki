@@ -10,7 +10,7 @@ SMPL, our core technology, is a realistic 3D model of the human body that is bas
 
 Details about setting up SMPL in Python is available [here](/wiki/SMPL#getting-started-with-smpl-in-python). Note that you would need an SMPL-Model license to run this code.
 
-More about SMPL add-ons is available [here](/wiki/SMPL#add-ons).
+[More about SMPL add-ons is available here](/wiki/SMPL#add-ons).
 
 ### Textured Samples
 
