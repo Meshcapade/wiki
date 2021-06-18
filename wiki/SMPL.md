@@ -134,7 +134,7 @@ Male & Female models in OBJ format, with sample textures. These samples represen
 *[SMPL animated mesh with textures](https://app.box.com/s/732qw6hcxqnprdqeya2s8zcr6gzvw2ub)*
 Rigged male SMPL model with default texture, animated using motion capture.
 
-### 3. Body-part segmentation:
+#### 3. Body-part segmentation:
 
 1. **[SMPL part segmentation](../assets/SMPL_body_segmentation/smpl/smpl_vert_segmentation.json)**
 This body-part segmentation defines part segmentation information for SMPL, SMPL+H and STAR models.
@@ -149,14 +149,14 @@ This body-part segmentation defines part segmentation information for only the S
 
 ### SMPL Software, Plugins & Scripts
 
-* SMPL in Python 
+#### 1. SMPL in Python 
     * [SMPL, SMPL+H, SMPL-X](https://github.com/vchoutas/smplx)
     * [STAR](https://github.com/ahmedosman/STAR)
-* SMPL for Animation 
+#### 2. SMPL for Animation 
     * [Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
     * [Blender](https://www.youtube.com/watch?v=DY2k29Jef94)* 
     * [Unity](https://app.box.com/s/31zc131kaql0epmi5012xlmyk4lwsbat)
-* Inter-Model operability: 
+#### 3. Inter-Model operability: 
     * [MANO & FLAME correspondences](https://github.com/vchoutas/smplx#mano-and-flame-correspondences)
     * [SMPL-SMPLX-STAR conversions](https://github.com/vchoutas/smplx/tree/master/transfer_model)
     * [SMPLX OpenPose mapping](../assets/SMPLX_OpenPose_mapping/README.md)
