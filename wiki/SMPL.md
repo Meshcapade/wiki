@@ -150,19 +150,22 @@ This body-part segmentation defines part segmentation information for only the S
 ### SMPL Software, Plugins & Scripts
 
 #### 1. SMPL in Python 
-    * [SMPL, SMPL+H, SMPL-X](https://github.com/vchoutas/smplx)
-    * [STAR](https://github.com/ahmedosman/STAR)
+* [SMPL, SMPL+H, SMPL-X](https://github.com/vchoutas/smplx)
+* [STAR](https://github.com/ahmedosman/STAR)
+
 #### 2. SMPL for Animation 
-    * [Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
-    * [Blender](https://www.youtube.com/watch?v=DY2k29Jef94)* 
-    * [Unity](https://app.box.com/s/31zc131kaql0epmi5012xlmyk4lwsbat)
-#### 3. Inter-Model operability: 
-    * [MANO & FLAME correspondences](https://github.com/vchoutas/smplx#mano-and-flame-correspondences)
-    * [SMPL-SMPLX-STAR conversions](https://github.com/vchoutas/smplx/tree/master/transfer_model)
-    * [SMPLX OpenPose mapping](../assets/SMPLX_OpenPose_mapping/README.md)
-    
+* [Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
+* [Blender](https://www.youtube.com/watch?v=DY2k29Jef94)* 
+* [Unity](https://app.box.com/s/31zc131kaql0epmi5012xlmyk4lwsbat)
 
 > *These items are currently only available after sign up at the academic page linked 
+
+#### 3. Inter-Model operability: 
+* [MANO & FLAME correspondences](https://github.com/vchoutas/smplx#mano-and-flame-correspondences)
+* [SMPL-SMPLX-STAR conversions](https://github.com/vchoutas/smplx/tree/master/transfer_model)
+* [SMPLX OpenPose mapping](../assets/SMPLX_OpenPose_mapping/README.md)
+    
+
 
 
 
