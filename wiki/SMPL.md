@@ -154,11 +154,14 @@ This body-part segmentation defines part segmentation information for only the S
 * [STAR](https://github.com/ahmedosman/STAR)
 
 #### 2. SMPL for Animation 
-* [Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
-* [Blender](https://www.youtube.com/watch?v=DY2k29Jef94)* 
-* [Unity](https://app.box.com/s/31zc131kaql0epmi5012xlmyk4lwsbat)
+* [SMPL in Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
+* [SMPL in Blender](https://www.youtube.com/watch?v=DY2k29Jef94)
+* [SMPL in Unity](https://app.box.com/s/31zc131kaql0epmi5012xlmyk4lwsbat)
+* [SMPL in Unreal](https://www.youtube.com/watch?v=fuB4OWxOhME)
 
-> *These items are currently only available after sign up at the academic page linked 
+Also check out this video for more on SMPL in Blender, Unity and Unreal Engine:
+[https://www.youtube.com/watch?v=m8i00zG6mZI](https://www.youtube.com/watch?v=m8i00zG6mZI)
+
 
 #### 3. Inter-Model operability: 
 * [MANO & FLAME correspondences](https://github.com/vchoutas/smplx#mano-and-flame-correspondences)
