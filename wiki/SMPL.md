@@ -112,38 +112,38 @@ Meshcapade's commercial licensing for SMPL Model includes access to all all the 
 ## Mesh Templates & Samples
 You can find various samples of template meshes, animated outputs and textures for the SMPL and related models below.
 
-### 1. Sample OBJs with textures:
+### Sample OBJs with textures
 ![](../assets/smpl_textured_female.png) ![](../assets/smpl_textured_male.png) 
     
-1. **[SMPL topology](https://app.box.com/s/mdx2m368j9m0jgkkjnf67l6blrwrt20f)**:
+a) **[SMPL topology](https://app.box.com/s/mdx2m368j9m0jgkkjnf67l6blrwrt20f)**:
 Male & Female models in OBJ format, with sample textures. These samples represesnt the mesh topology used in [SMPL](#SMPL), [SMPL+H](#MANO-and-SMPL+H) and [STAR](#STAR) models.
     
-2. **[SMPL-X topology](https://app.box.com/s/ei0gk8295o3pu7qugrisgucnpfqoghsm)**:  
+b) **[SMPL-X topology](https://app.box.com/s/ei0gk8295o3pu7qugrisgucnpfqoghsm)**:  
 Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL-X](#SMPL-X) model.
 
-### 2. Sample FBX with animation:
+### Sample FBX with animation
 
 ![](../assets/smpl_fbx.png)
 
 *[SMPL animated mesh with textures](https://app.box.com/s/732qw6hcxqnprdqeya2s8zcr6gzvw2ub)*
 Rigged male SMPL model with default texture, animated using motion capture.
 
-### 3. Body-part segmentation:
+### Body-part segmentation
 
-1. **[SMPL part segmentation](../assets/SMPL_body_segmentation/smpl/smpl_vert_segmentation.json)**
+a) **[SMPL part segmentation](../assets/SMPL_body_segmentation/smpl/smpl_vert_segmentation.json)**
 This body-part segmentation defines part segmentation information for SMPL, SMPL+H and STAR models.
 
 <img src="../assets/SMPL_body_segmentation/smpl/smpl_segmentation_on_template.png" width="200"/>
 
 
-2. **[SMPL-X part segmentation](../assets/SMPL_body_segmentation/smplx/smplx_vert_segmentation.json)**
+b) **[SMPL-X part segmentation](../assets/SMPL_body_segmentation/smplx/smplx_vert_segmentation.json)**
 This body-part segmentation defines part segmentation information for only the SMPL-X model.
 
 <img src="../assets/SMPL_body_segmentation/smplx/smplx_segmentation.png" width="200"/>
 
-### 4. Skeleton layout:
+### Skeleton layout
 
-1. **SMPL skeleton**:
+a) **SMPL skeleton**:
 
 ```
      0: 'Pelvis',     3: 'Spine1',       6: 'Spine2',    9: 'Spine3',    12: 'Neck',     15: 'Head',
@@ -155,7 +155,7 @@ This body-part segmentation defines part segmentation information for only the S
     23: 'R_Hand'
 ```
 
-2. **SMPL+H skeleton**:
+b) **SMPL+H skeleton**:
 
 ```
      0: 'Pelvis',     3: 'Spine1',       6: 'Spine2',    9: 'Spine3',    12: 'Neck',     15: 'Head',
@@ -175,7 +175,7 @@ This body-part segmentation defines part segmentation information for only the S
     49: 'rthumb0',  50: 'rthumb1',  51: 'rthumb2'
 ```
 
-3. **SMPL-X skeleton**:
+c) **SMPL-X skeleton**:
 
 ```
      0: 'Pelvis',     3: 'Spine1',       6: 'Spine2',    9: 'Spine3',    12: 'Neck',     15: 'Head',
@@ -198,11 +198,11 @@ This body-part segmentation defines part segmentation information for only the S
 
 ## SMPL Software, Plugins & Scripts
 
-### 1. SMPL in Python 
+### SMPL in Python 
 * [SMPL, SMPL+H, SMPL-X](https://github.com/vchoutas/smplx)
 * [STAR](https://github.com/ahmedosman/STAR)
 
-### 2. SMPL for Animation 
+### SMPL for Animation 
 * [SMPL in Maya](https://github.com/Meshcapade/SMPL_maya_plugin)
 * [SMPL in Blender](https://www.youtube.com/watch?v=DY2k29Jef94)
 * [SMPL in Unity](https://app.box.com/s/31zc131kaql0epmi5012xlmyk4lwsbat)
@@ -211,8 +211,7 @@ This body-part segmentation defines part segmentation information for only the S
 Also check out this video for more on SMPL in Blender, Unity and Unreal Engine:
 [https://www.youtube.com/watch?v=m8i00zG6mZI](https://www.youtube.com/watch?v=m8i00zG6mZI)
 
-
-### 3. Inter-Model operability: 
+### Inter-Model operability
 * [MANO & FLAME correspondences](https://github.com/vchoutas/smplx#mano-and-flame-correspondences)
 * [SMPL-SMPLX-STAR conversions](https://github.com/vchoutas/smplx/tree/master/transfer_model)
 * [SMPLX OpenPose mapping](../assets/SMPLX_OpenPose_mapping/README.md)
