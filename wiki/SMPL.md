@@ -123,7 +123,7 @@ Male & Female models in OBJ format, with sample textures. These samples represen
 
 ### Sample FBX with animation
 
-![](../assets/smpl_fbx.png)
+![](../assets/smpl_fb
 
 *[SMPL animated mesh with textures](https://app.box.com/s/732qw6hcxqnprdqeya2s8zcr6gzvw2ub)*
 Rigged male SMPL model with default texture, animated using motion capture.
@@ -219,7 +219,6 @@ Also check out this video for more on SMPL in Blender, Unity and Unreal Engine:
 * [SMPL-SMPLX-STAR conversions](https://github.com/vchoutas/smplx/tree/master/transfer_model)
 * [SMPLX OpenPose mapping](../assets/SMPLX_OpenPose_mapping/README.md)
     
-
 
 
 
