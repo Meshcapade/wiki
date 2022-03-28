@@ -65,3 +65,62 @@ Here is a sample file that shows the format for marker data that the mosh code e
  - [Npz format](https://drive.google.com/file/d/11tEf-WMwhpWI0fokznz3AqhTPz93S1z6/view?usp=sharing)
  - [C3d formt](https://drive.google.com/file/d/1yMon2dTiQO-mP2a4_XpYQ_skWjgxOO0h/view?usp=sharing)
  
+ 
+## SMPL - Technical Details
+
+> How do I convert between SMPL and SMPL-X (and STAR)? 
+
+
+>  What is PA-MPJPE?  What is Procrustes?
+
+
+> When do I need to use a joint regressor and why?
+
+
+> How do I add soft-tissue dynamics to SMPL?
+
+
+> How do I get a gender neutral model?
+
+
+> How do I get SMPL with 300 shape components?
+
+
+> How do I get just the face (or hand) vertices in SMPL-X?
+
+
+> How do I get the joints out of SMPL?
+
+
+> How do I visualize SMPL in Blender?
+
+
+> How do I sample body shapes?
+
+> How do I use the shape prior as a loss? 
+
+> How does VPoser work?
+
+> How do I convert SMPL part rotations to other formats?
+
+> How do I get parameters for the forward pass of SMPL/SMPLX from full-pose?
+
+> I want to test for interpenetration?
+
+> I ran SMPLify and the body shape is not right. What happened?
+
+> Is there a library of example SMPL (SMPL-X) poses?
+
+
+> Can I get the SMPL training data?
+
+
+> How can I train my own SMPL model?
+
+> I want to pose SMPL myself.  How can I do it?
+
+> How do I generate animations in FBX format?
+
+
+
+
