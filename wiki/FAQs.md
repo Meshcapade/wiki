@@ -20,6 +20,39 @@ These internal geometry pieces have to be removed before they can be sent for pr
 
 ## Digidoppel API
 
+> What exactly is the API?
+
+The API is a digital human cloud platform for creating animation-ready avatars from scans, hand-measurements, and more. You can find out more details about it [here](https://meshcapade.com/infopages/api.html).
+
+> How can I license the API?
+
+We offer different pricing options and packages for the API. For more information, please check our licensing page here. If you have higher volumes of data, please contact us on info@meshcapade.com.
+
+> What am I allowed to do with the generated avatars? Can I share it with my users?
+
+The output files are free for all uses under SMPL Body license, please contact us on info@meshcapade.com.
+
+> How is security being handled for the API?
+
+You can review our Privacy Policy [here](https://info.meshcapade.com/faqs/api-privacy-policy).
+
+> Is your API available as an offline solution/SDK?
+
+Yes. Contact us at info@meshcapade.com.
+
+> Is your API available on a mobile application?
+
+Yes. Contact us at info@meshcapade.com.
+
+> Is there a trial for the API?
+
+When you choose the pay as you go option, you receive 10 Free credits on initial sign up that you can use to try out the API.
+
+> Is there a sample output for the API?
+
+Yes, we have some sample outputs for our bodies-from-scans and bodies-from-measurements API. Please  contact us on info@meshcapade.com to share these sample files with you.
+
+
 ## MOCAP
 
 > How does MoSH work with IMU data?
