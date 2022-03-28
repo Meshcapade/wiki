@@ -116,7 +116,7 @@ You can find various samples of template meshes, animated outputs and textures f
 ![](../assets/smpl_textured_female.png) ![](../assets/smpl_textured_male.png) 
     
 a) **[SMPL topology](https://app.box.com/s/mdx2m368j9m0jgkkjnf67l6blrwrt20f)**:
-Male & Female models in OBJ format, with sample textures. These samples represesnt the mesh topology used in [SMPL](#SMPL), [SMPL+H](#MANO-and-SMPL+H) and [STAR](#STAR) models.
+Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL](#SMPL), [SMPL+H](#MANO-and-SMPL+H) and [STAR](#STAR) models.
     
 b) **[SMPL-X topology](https://app.box.com/s/ei0gk8295o3pu7qugrisgucnpfqoghsm)**:  
 Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL-X](#SMPL-X) model.
