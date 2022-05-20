@@ -65,7 +65,7 @@ Here is a sample file that shows the format for marker data that the mosh code e
  - [Npz format](https://drive.google.com/file/d/11tEf-WMwhpWI0fokznz3AqhTPz93S1z6/view?usp=sharing)
  - [C3d formt](https://drive.google.com/file/d/1yMon2dTiQO-mP2a4_XpYQ_skWjgxOO0h/view?usp=sharing)
  
- 
+<!--  
 ## SMPL - Technical Details
 
 > How do I convert between SMPL and SMPL-X (and STAR)? 
@@ -121,6 +121,8 @@ Here is a sample file that shows the format for marker data that the mosh code e
 
 > How do I generate animations in FBX format?
 
+
+-->
 
 
 
