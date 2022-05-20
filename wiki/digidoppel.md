@@ -39,6 +39,12 @@ The platform accepts OBJ and PLY files as input. At the moment only static 3D sc
 
 We limit the input mesh size to under 1million vertices so please make sure your input file does not have more than 1M veritces when you upload the scan.
 
+#### Scans with textures
+The digidoppel platform can automatically transfer the texture from a scan to the output we create. You can upload a scan with texture as a zipped file. Make sure the zipped file contains ONLY the scan and texture image file (there should be no hidden files in the zip archive).
+
+The output created will include the processed mesh (in OBJ, FBX, etc. format you choose) + a texture file transformed to our body topology.
+
+
 #### Problems with Internal Geometry
 
 The scan alignment process is designed to work with 3D meshes acquired through 3D scanning process. 
