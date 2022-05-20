@@ -2,95 +2,34 @@
 
 [digidoppel](https://digidoppel.com/) is our online platform which allows users to convert different kinds of inputs into realistic animation-ready 3D avatars. Users can use 3D scans or body measurements (more options for avatars from mocap, images & video coming soon!)
 
-### 1. Avatars from measurements
+## Avatars from measurements
 On digidoppel, you can create an avatar using body measurements. Below is a list of body measurements that are currently available for use on the digidoppel platform:
 
 ### Measurements descriptions
 
-- **Ankle circumference\
-key: ankle_circumference** \
-The loop resulting from slicing a leg segment with a transverse plane at a fixed vertex for ankle.
+
+| **Measurement**                 | **Description**                                       | **Preview** |
+|---------------------------      |-------------------------------------------------------|-------------|
+| Height                          | The line segment to the lowest center point to the highest on the mesh. |  <img src="../assets/images_digidoppel/measurements/BodyVis-Web-height.png" width="200" /> |
+| Chest circumference at maximum  | The loop resulting from slicing a torso mesh segment transversally at a fixed "nipple level" vertex. |  <img src="../assets/images_digidoppel/measurements/BodyVis-Web-chest_max_girth.png" width="200" /> |
+| Shoulder Breadth                | The length of the greatest extents within a defined "shoulder geometry" set of vertices from the sagittal axis. |  <img src="../assets/images_digidoppel/measurements/BodyVis-Web-shoulder_breadth.png" width="200" /> |
+| Neck circumference at base      | The loop segment of edges across the cervicale landmark at the juncture of the neck and the shoulders of the mesh. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-neck_base_girth.png" width="200" /> |
+| Arm length (spine to wrist)     | The line segment of edges of the mesh measured from cervicale through acromion to the wrist at the ulnar styloid landmark. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-armlength_spine_wrist.png" width="200" /> |
+| Arm length (shoulder to wrist)  | The line segment of edges of the mesh measured by subtracting spine-shoulder length measurement from spine-wrist length measurement. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-armlength_shoulder_wrist.png" width="200" /> |
+| Arm length (shoulder to elbow)  | The line segment of edges of the mesh measured by subtracting the spine-shoulder length measurement from the spine-elbow length measurement. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-armlength_shoulder_elbow.png" width="200" /> |
+| Arm circumference at scye       | The loop resulting from slicing an arm segment with a sagittal plane at a fixed vertex for armpit. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-arm_scye_girth.png" width="200" /> |
+| Waist Circumference       | Given the range of vertice roughly representing the region at and below the navel and above the hip bone, slice the mesh transversally at each of those specified points, and pick the SMALLEST slice for the waist measurement. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-waist_min_girth.png" width="200" /> |
+| Waist Height              | The length from the bottom of the mesh up to the height of the waist circumference measurement. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-waist_height.png" width="200" /> |
+| Hip circumference               | Given a range of vertices roughly representing the region at and below the navel and above the hip bone, slice the mesh transversally at each of those specified points, and pick the LARGEST slice for the hip measurement. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-hip_max_girth.png" width="200" /> |
+| Hip Height                      | The length from the bottom of the mesh up to the height of the hip circumference measurement. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-hip_height.png" width="200" /> |
+| Thigh Circumference       | Given a range of fixed thigh vertices, transversally slice the mesh at these locations and use the LARGEST slice. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-thigh_max_girth.png" width="200" /> |
+| Inseam                          | The height measured from the bottom of the mesh to a specified crotch vertex. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-inseam.png" width="200" /> |
+| Crotch length                   | The line segment of vertices from top of navel, down along a sagittal segment to the opposing side. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-crotch_length.png" width="200" /> |
+| Foot Length                     | A line segment from the rearmost vertex on the foot to the foremost. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-foot_length.png" width="200" /> |
+| Ankle circumference             | The loop resulting from slicing a leg segment with a transverse plane at a fixed vertex for ankle. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-ankle_girth.png" width="200" /> |
 
 
-- **Arm circumference at scye\
-key: arm_scye_circumference** \
-The loop resulting from slicing an arm segment with a sagittal plane at a fixed vertex for armpit
-
-
-- **Arm length (shoulder to elbow)\
-key: arm_shoulder_elbow** \
-The line segment of a specified set of edges of the mesh
-
-
-- **Arm length (shoulder to wrist)\
-key: arm_shoulder_wrist** \
-The line segment  of a specified set of edges of the mesh
-
-
-- **Arm length (spine to wrist)\
-key: arm_spine_wrist** \
-The line segment  of a specified set of edges of the mesh
-
-
-- **Chest circumference at maximum\
-key: chest_nipple_circumference** \
-The loop resulting from slicing a torso mesh segment transversally at a fixed "nipple level" vertex.
-
-- **Inseam\
-key: crotch_height** \
-The height measured from the bottom of the mesh to a specified crotch vertex.
-
-
-- **Crotch length\
-key: crotch_length** \
-The line segment of a specified set of vertices (from top of navel, down along a sagittal segment to the opposing side)
-
-
-- **Foot Length\
-key: foot_length**\
-A line segment from the rearmost vertex on the foot to the foremost.
-
-
-- **Height\
-key: height** \
-The line segment to the lowest center point to the highest on the mesh.
-
-
-- **Hip circumference\
-key: hip_circumference_max** \
-Given a range of vertex locations (roughly representing the region at and below the navel and above the hip bone), slice the mesh transversally at each of those specified points, and pick the LARGEST slice for the hip measurement.
-
-
-- **Hip Height\
-key: hip_height**\
-The length from the bottom of the mesh up to the height of the hip circumference measurement.
-
-
-- **Neck circumference at base\
-key: neck_base_circumference**\
-The loop segment of a specified set of edges along the mesh.
-
-
-- **Shoulder Breadth\
-key: shoulder_breadth** \
-The length of the greatest extents within a defined "shoulder geometry" set of vertices from the sagittal axis.
-
-
-- **Thigh Circumference\
-key: thigh_circumference**\
-Given a range of fixed thigh vertices, transversally slice the mesh at these locations and use the greatest slice.
-
-
-- **Waist Circumference\
-key: waist_circumference**\
-Given a range of vertex locations (roughly representing the region at and below the navel and above the hip bone), slice the mesh transversally at each of those specified points, and pick the SMALLEST slice for the waist measurement.
-
-- **Waist Height\
-key: waist_height**\
-The length from the bottom of the mesh up to the height of the waist circumference measurement.
-
-
-## 2. Avatars from Scans
+## Avatars from Scans
 On digidoppel, you can create an avatar using 3D scans. 
 
 ### Best practices for good scan alignment results
