@@ -1,9 +1,11 @@
-### digidoppel
+# digidoppel
 
 [digidoppel](https://digidoppel.com/) is our online platform which allows users to convert different kinds of inputs into realistic animation-ready 3D avatars. Users can use 3D scans or body measurements (more options for avatars from mocap, images & video coming soon!)
 
+### 1. Avatars from measurements
+On digidoppel, you can create an avatar using body measurements. Below is a list of body measurements that are currently available for use on the digidoppel platform:
 
-#### Measurements descriptions
+### Measurements descriptions
 
 - **Ankle circumference\
 key: ankle_circumference** \
@@ -86,4 +88,75 @@ Given a range of vertex locations (roughly representing the region at and below 
 - **Waist Height\
 key: waist_height**\
 The length from the bottom of the mesh up to the height of the waist circumference measurement.
+
+
+## 2. Avatars from Scans
+On digidoppel, you can create an avatar using 3D scans. 
+
+### Best practices for good scan alignment results
+
+#### Input files and mesh sizes
+The platform accepts OBJ and PLY files as input. At the moment only static 3D scans can be processed automatically on the digidoppel platform, for 4D scans, please contact us at [support@meshcapade.com](mailto:support@meshcapade.com) with a small sample of your 4D data. 
+
+We limit the input mesh size to under 1million vertices so please make sure your input file does not have more than 1M veritces when you upload the scan.
+
+#### Problems with Internal Geometry
+
+The scan alignment process is designed to work with 3D meshes acquired through 3D scanning process. 
+
+Scans from a 3D scanner can be noisy, this noise is expected and our scan alignment process can handle these. 
+
+However, the 3D scans are expected to only contain an outer surface of the body, and no internal surfaces. Generally when artists create 3D body models in some 3D animation program, they might create additional geometry on the inside of the body surface, e.g.
+An artist might create internal geometry for eyes and mouth for the face, as shown below:
+
+![internal-geometry-problems](../assets/images_digidoppel/internal-geometry-problems.png)
+
+Or there the limbs and neck joints might be created as separate geometry objects, so they will have additional geometry where the limb closes off in the 3D model. 
+These internal geometry pieces have to be removed before they can be sent for processing on digidoppel.
+
+#### Problems with long hair
+
+Input meshes with hair occluding the neck will not function well. Please make sure that hair is not falling onto the shoulders. It is best if it is tied up in a bun or in a haircap.
+
+#### Problems with loose clothing
+
+Input meshes with clothing do function, but the tighter the clothing is, the better. Loose clothing or accessories may cause alignment to fail, take a very long time, or produce subpar results. Keep in mind that the training data was done on with models in tight-fitted clothing.
+
+![clothing-problems](../assets/images_digidoppel/clothing-problems.png)
+
+
+## Digidoppel API
+
+> What exactly is the API?
+
+The API is a digital human cloud platform for creating animation-ready avatars from scans, hand-measurements, and more. You can find out more details about it [here](https://meshcapade.com/infopages/api.html).
+
+> How can I license the API?
+
+We offer different pricing options and packages for the API. For more information, please check our licensing page here. If you have higher volumes of data, please contact us on info@meshcapade.com.
+
+> What am I allowed to do with the generated avatars? Can I share it with my users?
+
+The output files are free for all uses under SMPL Body license, please contact us on info@meshcapade.com.
+
+> How is security being handled for the API?
+
+You can review our Privacy Policy [here](https://info.meshcapade.com/faqs/api-privacy-policy).
+
+> Is your API available as an offline solution/SDK?
+
+Yes. Contact us at info@meshcapade.com.
+
+> Is your API available on a mobile application?
+
+Yes. Contact us at info@meshcapade.com.
+
+> Is there a trial for the API?
+
+When you choose the pay as you go option, you receive 10 Free credits on initial sign up that you can use to try out the API.
+
+> Is there a sample output for the API?
+
+Yes, we have some sample outputs for our bodies-from-scans and bodies-from-measurements API. Please  contact us on info@meshcapade.com to share these sample files with you.
+
 
