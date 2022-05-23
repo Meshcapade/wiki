@@ -1,3 +1,8 @@
+---
+usemathjax: true
+---
+
+___
 # FAQs
 
 ## Scan Alignment
@@ -5,6 +10,7 @@
 >  My Scan alignment doesn't look right, what went wrong?
 
 #### Problems with Internal Geometry
+
 
 The scan alignment process is designed to work with 3D meshes acquired through 3D scanning process. 
 
@@ -65,10 +71,12 @@ Here is a sample file that shows the format for marker data that the mosh code e
  - [Npz format](https://drive.google.com/file/d/11tEf-WMwhpWI0fokznz3AqhTPz93S1z6/view?usp=sharing)
  - [C3d formt](https://drive.google.com/file/d/1yMon2dTiQO-mP2a4_XpYQ_skWjgxOO0h/view?usp=sharing)
  
-<!--  
+ 
 ## SMPL - Technical Details
 
 > How do I convert between SMPL and SMPL-X (and STAR)? 
+
+
 
 
 >  What is PA-MPJPE?  What is Procrustes?
@@ -121,8 +129,6 @@ Here is a sample file that shows the format for marker data that the mosh code e
 
 > How do I generate animations in FBX format?
 
-
--->
 
 
 
