@@ -252,16 +252,28 @@ mesh = trimesh.Trimesh(vertices=vertices,
 mesh_fname = 'my_mesh.obj'
 mesh.export(mesh_fname)
 ```
-<!-- 
+
 
 > How do I sample body shapes?
 
-TODO
+As [mentioned](/SMPL.html), shape space of SMPL is defined by PCA (Principal Component Analysis). PCA returns vectors $$ B_i $$ of unit norm. For convenience we scale them by $$ \sigma $$. So to sample according to the Gaussian over body shapes, you can just sample a Gaussian where the covariance matrix is the identity.
+
+To sample a shape where 95% of training subjects lie ([$$ -2\sigma, 2 \sigma $$]) in python,
+
+```
+betas_nb = len(model.betas)
+amplitude = 2
+model.betas[:] = (np.random.rand(beta_nb) - 0.5) * amplitude
+```
+
+> How do I keep plausible shapes while optimizing for shape parameters? 
+
+You can use shape prior by regularizing the shape vector. This can be done by scaling each dimention by its corresponding variance, i.e.
+
+$$ L(\beta) = \sum_i \sigma_i^2 \beta_i^2 $$
 
 
-> How do I use the shape prior as a loss? 
-
-TODO -->
+Note that in practice L2 loss is applied on betas directly.
 
 
 > I need a pose prior for my application, how do I do that?
