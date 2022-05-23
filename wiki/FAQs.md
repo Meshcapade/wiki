@@ -181,7 +181,7 @@ With (left) and without (right) DMPL parameters:
 
 ![PAMPJPE](/assets/FAQs/neutral.png)
 
-SMPL gender neutral models are available for vailable Neutral Models: SMPL , SMPL+H , SMPL-X and STAR. They are created by training both male and female subjects together.
+SMPL gender neutral models are available for SMPL , SMPL+H , SMPL-X and STAR. They are created by training both male and female subjects together.
 
 > How do I convert between SMPL and SMPL-X (and STAR)? 
 
@@ -190,7 +190,7 @@ Please use [`transfer_model`](https://github.com/vchoutas/smplx/tree/master/tran
 
 > How do I get SMPL with 300 shape components?
 
-SMPL, SMPLX and STAR are currently available with "full shape space" of 300 shape components. Contact us for licesing.
+SMPL, SMPLX and STAR are currently available with "full shape space" of 300 shape components. Contact us for licensing.
 
 
 > How do I get just the face (or hand) vertices in SMPL-X?
