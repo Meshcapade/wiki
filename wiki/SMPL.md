@@ -198,6 +198,12 @@ c) **SMPL-X skeleton**:
     49: 'rring0',   50: 'rring1',   51: 'rring2',
     52: 'rthumb0',  53: 'rthumb1',  54: 'rthumb2'
 ```
+>> Note: [digidoppel](https://digidoppel.com/) platform returns pose parameters in SMPLH format. 
+
+
+### Using SMPL pose parameters 
+To convert the SMPL pose parameters from Rodrigues triplets to rotation matrix notation (3x3 metrices), you can use OpenCV's method [cv.rodrigues()](https://docs.opencv.org/3.4/d9/d0c/group__calib3d.html#ga61585db663d9da06b68e70cfbf6a1eac).
+
 
 ## SMPL Software, Plugins & Scripts
 
