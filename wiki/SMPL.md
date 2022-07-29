@@ -115,15 +115,13 @@ You can find various samples of template meshes, animated outputs and textures f
 ### Sample OBJs with textures
 ![](../assets/smpl_textured_female.png) ![](../assets/smpl_textured_male.png) 
     
-a) **[SMPL topology](https://app.box.com/s/mdx2m368j9m0jgkkjnf67l6blrwrt20f)**:
-Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL](#SMPL), [SMPL+H](#MANO-and-SMPL+H) and [STAR](#STAR) models.
+a) **[Sample texture with SMPL topology](https://app.box.com/s/mdx2m368j9m0jgkkjnf67l6blrwrt20f)**:  
+Made available under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) License. Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL](#SMPL), [SMPL+H](#MANO-and-SMPL+H) and [STAR](#STAR) models.
     
-b) **[SMPL-X topology](https://app.box.com/s/ei0gk8295o3pu7qugrisgucnpfqoghsm)**:  
-Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL-X](#SMPL-X) model.
+b) **[Sample texture with SMPL-X topology](https://app.box.com/s/ei0gk8295o3pu7qugrisgucnpfqoghsm)**:  
+Made available under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) License. Male & Female models in OBJ format, with sample textures. These samples represent the mesh topology used in [SMPL-X](#SMPL-X) model.
 
 ### Sample FBX with animation
-
-![](../assets/smpl_fb
 
 *[SMPL animated mesh with textures](https://app.box.com/s/732qw6hcxqnprdqeya2s8zcr6gzvw2ub)*
 Rigged male SMPL model with default texture, animated using motion capture.
