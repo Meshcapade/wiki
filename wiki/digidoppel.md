@@ -5,7 +5,7 @@
 ## Avatars from Scans
 On digidoppel, you can create an avatar using 3D scans. 
 
-![](https://www.youtube.com/watch?v=0vRPJdf-RlQ)
+[![IMAGE_ALT](https://img.youtube.com/vi/0vRPJdf-RlQ/0.jpg)](https://www.youtube.com/watch?v=0vRPJdf-RlQ)
 
 ### Input files and mesh sizes
 The platform accepts OBJ and PLY files as input. At the moment only static 3D scans can be processed automatically on the digidoppel platform, for 4D scans, please contact us at [support@meshcapade.com](mailto:support@meshcapade.com) with a small sample of your 4D data. 
@@ -46,7 +46,7 @@ Input meshes with clothing do function, but the tighter the clothing is, the bet
 ## Avatars from measurements
 On digidoppel, you can create an avatar using body measurements. Below is a list of body measurements that are currently available for use on the digidoppel platform:
 
-![](https://www.youtube.com/watch?v=MZD4actpeDw)
+[![IMAGE_ALT](https://img.youtube.com/vi/MZD4actpeDw/0.jpg)](https://www.youtube.com/watch?v=MZD4actpeDw)
 
 ### Measurements descriptions
 
