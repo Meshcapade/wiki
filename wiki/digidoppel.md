@@ -2,8 +2,51 @@
 
 [digidoppel](https://digidoppel.com/) is our online platform which allows users to convert different kinds of inputs into realistic animation-ready 3D avatars. Users can use 3D scans or body measurements (more options for avatars from mocap, images & video coming soon!)
 
+## Avatars from Scans
+On digidoppel, you can create an avatar using 3D scans. 
+
+![](https://www.youtube.com/watch?v=0vRPJdf-RlQ)
+
+### Input files and mesh sizes
+The platform accepts OBJ and PLY files as input. At the moment only static 3D scans can be processed automatically on the digidoppel platform, for 4D scans, please contact us at [support@meshcapade.com](mailto:support@meshcapade.com) with a small sample of your 4D data. 
+
+We limit the input mesh size to under 1million vertices so please make sure your input file does not have more than 1M veritces when you upload the scan.
+
+### Scans with textures
+The digidoppel platform can automatically transfer the texture from a scan to the output we create. You can upload a scan with texture as a zipped file. Make sure the zipped file contains ONLY the scan and texture image file (there should be no hidden files in the zip archive).
+
+The output created will include the processed mesh (in OBJ, FBX, etc. format you choose) + a texture file transformed to our body topology.
+
+
+### Problems with Internal Geometry
+
+The scan alignment process is designed to work with 3D meshes acquired through 3D scanning process. 
+
+Scans from a 3D scanner can be noisy, this noise is expected and our scan alignment process can handle these. 
+
+However, the 3D scans are expected to only contain an outer surface of the body, and no internal surfaces. Generally when artists create 3D body models in some 3D animation program, they might create additional geometry on the inside of the body surface, e.g.
+An artist might create internal geometry for eyes and mouth for the face, as shown below:
+
+![internal-geometry-problems](../assets/images_digidoppel/internal-geometry-problems.png)
+
+Or there the limbs and neck joints might be created as separate geometry objects, so they will have additional geometry where the limb closes off in the 3D model. 
+These internal geometry pieces have to be removed before they can be sent for processing on digidoppel.
+
+### Problems with long hair
+
+Input meshes with hair occluding the neck will not function well. Please make sure that hair is not falling onto the shoulders. It is best if it is tied up in a bun or in a haircap.
+
+### Problems with loose clothing
+
+Input meshes with clothing do function, but the tighter the clothing is, the better. Loose clothing or accessories may cause alignment to fail, take a very long time, or produce subpar results. Keep in mind that the training data was done on with models in tight-fitted clothing.
+
+![clothing-problems](../assets/images_digidoppel/clothing-problems.png)
+
+
 ## Avatars from measurements
 On digidoppel, you can create an avatar using body measurements. Below is a list of body measurements that are currently available for use on the digidoppel platform:
+
+![](https://www.youtube.com/watch?v=MZD4actpeDw)
 
 ### Measurements descriptions
 
@@ -29,48 +72,9 @@ On digidoppel, you can create an avatar using body measurements. Below is a list
 | Ankle circumference             | The loop resulting from slicing a leg segment with a transverse plane at a fixed vertex for ankle. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-ankle_girth.png" width="200" /> |
 
 
-## Avatars from Scans
-On digidoppel, you can create an avatar using 3D scans. 
-
-### Best practices for good scan alignment results
-
-#### Input files and mesh sizes
-The platform accepts OBJ and PLY files as input. At the moment only static 3D scans can be processed automatically on the digidoppel platform, for 4D scans, please contact us at [support@meshcapade.com](mailto:support@meshcapade.com) with a small sample of your 4D data. 
-
-We limit the input mesh size to under 1million vertices so please make sure your input file does not have more than 1M veritces when you upload the scan.
-
-#### Scans with textures
-The digidoppel platform can automatically transfer the texture from a scan to the output we create. You can upload a scan with texture as a zipped file. Make sure the zipped file contains ONLY the scan and texture image file (there should be no hidden files in the zip archive).
-
-The output created will include the processed mesh (in OBJ, FBX, etc. format you choose) + a texture file transformed to our body topology.
 
 
-#### Problems with Internal Geometry
-
-The scan alignment process is designed to work with 3D meshes acquired through 3D scanning process. 
-
-Scans from a 3D scanner can be noisy, this noise is expected and our scan alignment process can handle these. 
-
-However, the 3D scans are expected to only contain an outer surface of the body, and no internal surfaces. Generally when artists create 3D body models in some 3D animation program, they might create additional geometry on the inside of the body surface, e.g.
-An artist might create internal geometry for eyes and mouth for the face, as shown below:
-
-![internal-geometry-problems](../assets/images_digidoppel/internal-geometry-problems.png)
-
-Or there the limbs and neck joints might be created as separate geometry objects, so they will have additional geometry where the limb closes off in the 3D model. 
-These internal geometry pieces have to be removed before they can be sent for processing on digidoppel.
-
-#### Problems with long hair
-
-Input meshes with hair occluding the neck will not function well. Please make sure that hair is not falling onto the shoulders. It is best if it is tied up in a bun or in a haircap.
-
-#### Problems with loose clothing
-
-Input meshes with clothing do function, but the tighter the clothing is, the better. Loose clothing or accessories may cause alignment to fail, take a very long time, or produce subpar results. Keep in mind that the training data was done on with models in tight-fitted clothing.
-
-![clothing-problems](../assets/images_digidoppel/clothing-problems.png)
-
-
-## Digidoppel API
+## Digidoppel FAQs
 
 > What exactly is the API?
 
