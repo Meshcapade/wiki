@@ -87,15 +87,28 @@ On digidoppel, you can create an avatar using body measurements. Below is a list
 
 > What exactly is the API?
 
-The API is a digital human cloud platform for creating animation-ready avatars from scans, hand-measurements, and more. You can find out more details about it [here](https://meshcapade.com/infopages/api.html).
-
-> How can I license the API?
-
-We offer different pricing options and packages for the API. For more information, please check our licensing page here. If you have higher volumes of data, please contact us on info@meshcapade.com.
+The API is a cloud platform for creating animation-ready avatars from scans, hand-measurements, and more. You can sign up for free [here](https://digidoppel.com/).
 
 > What am I allowed to do with the generated avatars? Can I share it with my users?
 
-The output files are free for all uses under SMPL Body license, please contact us on info@meshcapade.com.
+The output files made available to users under the [SMPL Body license](https://smpl.is.tue.mpg.de/bodylicense.html). The output files created from digidoppel are free to share and use in research and commercial projects, with the exception of uses 
+
+-	to generate defamatory, harassing, pornographic, obscene, or racist material whether commercial or not; or 
+- for purposes of mass-surveillance or for creating a digital-double of any person in avatar or other form of digital replication without such person’s explicit consent.
+
+> What are the usage rights and terms for the platform?
+
+The platform is made available under the Terms of Service available [here](https://digidoppel.com/terms-of-service/#terms-go-3). 
+
+> Are there any restrictions on what kind of usage is not allowed on the platform?
+
+The platform must not be used to 
+- Sublicense any APIs for use by a third party or create an API Client that substantially replicates or competes with the APIs.
+- Attempt to interfere with the normal functioning of the APIs or the servers or networks providing the APIs.
+- Attempt to use our APIs in a manner that exceeds or circumvents, rate limits or constitutes excessive or harmful usage.
+- Attempt to access the APIs in a manner that compromises, circumvents, or tests the vulnerability of any of our security measures, except with express prior written approval by Meshcapade.
+- Attempt toreverse engineer or extract source code, trade secrets, or know-how of our APIs.
+
 
 > How is security being handled for the API?
 
@@ -103,18 +116,10 @@ You can review our Privacy Policy [here](https://info.meshcapade.com/faqs/api-pr
 
 > Is your API available as an offline solution/SDK?
 
-Yes. Contact us at info@meshcapade.com.
-
-> Is your API available on a mobile application?
-
-Yes. Contact us at info@meshcapade.com.
+Yes. Please contact us at [info@meshcapade.com](info@meshcapade.com) for help. 
 
 > Is there a trial for the API?
 
-When you choose the pay as you go option, you receive 10 Free credits on initial sign up that you can use to try out the API.
-
-> Is there a sample output for the API?
-
-Yes, we have some sample outputs for our bodies-from-scans and bodies-from-measurements API. Please  contact us on info@meshcapade.com to share these sample files with you.
+You don't need a trial, sign is free and you receive 20 free credits at sign up. You can find out more about pricing here [https://digidoppel.com/pricing/](https://digidoppel.com/pricing/).
 
 
