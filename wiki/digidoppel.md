@@ -2,7 +2,7 @@
 
 [digidoppel](https://digidoppel.com/) is our online platform which allows users to convert different kinds of inputs into realistic animation-ready 3D avatars. Users can use 3D scans or body measurements (more options for avatars from mocap, images & video coming soon!)
 
-## Avatars from Scans
+## Option 1: Avatars from Scans
 On digidoppel, you can create an avatar using 3D scans. 
 
 [![IMAGE_ALT](https://img.youtube.com/vi/0vRPJdf-RlQ/0.jpg)](https://www.youtube.com/watch?v=0vRPJdf-RlQ)
@@ -36,6 +36,7 @@ These internal geometry pieces have to be removed before they can be sent for pr
 
 Input meshes with hair occluding the neck will not function well. Please make sure that hair is not falling onto the shoulders. It is best if it is tied up in a bun or in a haircap.
 
+
 ### Problems with loose clothing
 
 Input meshes with clothing do function, but the tighter the clothing is, the better. Loose clothing or accessories may cause alignment to fail, take a very long time, or produce subpar results. Keep in mind that the training data was done on with models in tight-fitted clothing.
@@ -43,7 +44,15 @@ Input meshes with clothing do function, but the tighter the clothing is, the bet
 ![clothing-problems](../assets/images_digidoppel/clothing-problems.png)
 
 
-## Avatars from measurements
+### Creating a thigh gap
+
+For apparel simulation, often users want there to be a gap in the thigh area so that the vertices of the left and right thighs are not touching or intersecting. To help with this, we have created a 'thigh gap' option which allows users to create an artificial gap in the thigh area for OBJ output files. 
+
+[![IMAGE_ALT](https://img.youtube.com/vi/Jurq4H5vxJs/0.jpg)](https://www.youtube.com/watch?v=Jurq4H5vxJs)
+
+
+
+## Option 2: Avatars from measurements
 On digidoppel, you can create an avatar using body measurements. Below is a list of body measurements that are currently available for use on the digidoppel platform:
 
 [![IMAGE_ALT](https://img.youtube.com/vi/MZD4actpeDw/0.jpg)](https://www.youtube.com/watch?v=MZD4actpeDw)
