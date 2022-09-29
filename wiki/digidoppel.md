@@ -5,7 +5,7 @@
 ## Option 1: Avatars from Scans
 On digidoppel, you can create an avatar using 3D scans. 
 
-[![IMAGE_ALT](https://img.youtube.com/vi/0vRPJdf-RlQ/0.jpg)](https://www.youtube.com/watch?v=0vRPJdf-RlQ)
+[![Wacth on Youtube](https://img.youtube.com/vi/0vRPJdf-RlQ/0.jpg)](https://www.youtube.com/watch?v=0vRPJdf-RlQ)
 
 ### Input files and mesh sizes
 The platform accepts OBJ and PLY files as input. At the moment only static 3D scans can be processed automatically on the digidoppel platform, for 4D scans, please contact us at [support@meshcapade.com](mailto:support@meshcapade.com) with a small sample of your 4D data. 
@@ -48,14 +48,15 @@ Input meshes with clothing do function, but the tighter the clothing is, the bet
 
 For apparel simulation, often users want there to be a gap in the thigh area so that the vertices of the left and right thighs are not touching or intersecting. To help with this, we have created a 'thigh gap' option which allows users to create an artificial gap in the thigh area for OBJ output files. 
 
-[![IMAGE_ALT](https://img.youtube.com/vi/Jurq4H5vxJs/0.jpg)](https://www.youtube.com/watch?v=Jurq4H5vxJs)
+[![Wacth on Youtube](https://img.youtube.com/vi/Jurq4H5vxJs/0.jpg)](https://www.youtube.com/watch?v=Jurq4H5vxJs)
 
+ <a href="#digidoppel">Back to top</a>
 
 
 ## Option 2: Avatars from measurements
 On digidoppel, you can create an avatar using body measurements. Below is a list of body measurements that are currently available for use on the digidoppel platform:
 
-[![IMAGE_ALT](https://img.youtube.com/vi/MZD4actpeDw/0.jpg)](https://www.youtube.com/watch?v=MZD4actpeDw)
+[![Wacth on Youtube](https://img.youtube.com/vi/MZD4actpeDw/0.jpg)](https://www.youtube.com/watch?v=MZD4actpeDw)
 
 ### Measurements descriptions
 
@@ -81,13 +82,51 @@ On digidoppel, you can create an avatar using body measurements. Below is a list
 | Ankle circumference             | The loop resulting from slicing a leg segment with a transverse plane at a fixed vertex for ankle. | <img src="../assets/images_digidoppel/measurements/BodyVis-Web-ankle_girth.png" width="200" /> |
 
 
+## Output file options
+
+All avatars created on digidoppel can be exported as 
+- OBJ (static, posed file)
+- FBX (animated or static file)
+
+## Animations with digidoppel
+
+For all avatars created on digidoppel, users can add a static pose or animations (for FBX output option). 
+Below is our Animation Guide showing what motions are possible with digidoppel. The animation guide is also available on the digidoppel documentation, [here](https://digidoppel.com/documentation/#animation-guide):
+
+| **Name**  |   **Visualization**|
+|-----------|--------------------|
+|A to Bodybuilder           |   <img src="https://digidoppel.com/img/animations/a_to_bodybuilder.gif" alt="A to Bodybuilder" width="300" />  |
+|A to Catwalk               |   <img src="https://digidoppel.com/img/animations/a_to_catwalk.gif" alt="A to Catwalk" width="300" />          |
+|A to Dancing in Rain       |   <img src="https://digidoppel.com/img/animations/a_to_dancing_in_rain.gif" alt="A to Dancing in Rain" width="300" />          |
+|A to Hands Front           |   <img src="https://digidoppel.com/img/animations/a_to_hands_front.gif" alt="A to Hands Front" width="300" />          |
+|A to Hip Hop               |   <img src="https://digidoppel.com/img/animations/a_to_hip_hop.gif" alt="A to Hip Hop" width="300" />          |
+|A to Irish Dance           |   <img src="https://digidoppel.com/img/animations/a_to_irish_dance.gif" alt="A to Irish Dance" width="300" />          |
+|A to Model                 |   <img src="https://digidoppel.com/img/animations/a_to_model.gif" alt="A to Model" width="300" />          |
+|A to Salsa                 |   <img src="https://digidoppel.com/img/animations/a_to_salsa.gif" alt="A to Salsa" width="300" />          |
+|A to Stretches             |   <img src="https://digidoppel.com/img/animations/a_to_stretches.gif" alt="A to Stretches" width="300" />          |
+|A to Walk                  |   <img src="https://digidoppel.com/img/animations/a_to_walk.gif" alt="A to Walk" width="300" />          |
+|Attention                  |   <img src="https://digidoppel.com/img/animations/attention.gif" alt="Attention" width="300" />          |
+|Contra Pose                |   <img src="https://digidoppel.com/img/animations/contra_pose.gif" alt="Contra Pose" width="300" />          |
+|Sidestep                   |   <img src="https://digidoppel.com/img/animations/sidestep.gif" alt="Sidestep" width="300" />          |
+|Wide to A Pose             |   <img src="https://digidoppel.com/img/animations/wide_to_a.gif" alt="Wide to A Pose" width="300" />          |
+|Wide to Arms Retracted     |   <img src="https://digidoppel.com/img/animations/wide_to_arms_retracted.gif" alt="Wide to Arms Retracted" width="300" />          |
+|Wide to Catwalk            |   <img src="https://digidoppel.com/img/animations/wide_to_catwalk.gif" alt="Wide to Catwalk" width="300" />          |
+|Wide to I Pose             |   <img src="https://digidoppel.com/img/animations/wide_to_i_pose.gif" alt="Wide to I Pose" width="300" />          |
+|Wide to Squat              |   <img src="https://digidoppel.com/img/animations/wide_to_squat.gif" alt="Wide to Squat" width="300" />          |
+|Wide to Toe Touch          |   <img src="https://digidoppel.com/img/animations/wide_to_toe_touch.gif" alt="Wide to Toe Touch" width="300" />          |
+
+ <a href="#digidoppel">Back to top</a>
 
 
-## Digidoppel FAQs
+## FAQs
 
-> What exactly is the API?
+> What exactly is digidoppel?
 
-The API is a cloud platform for creating animation-ready avatars from scans, hand-measurements, and more. You can sign up for free [here](https://digidoppel.com/).
+The is a cloud platform for creating animation-ready avatars from scans, hand-measurements, and more. You can sign up for free [here](https://digidoppel.com/).
+
+> Can I use it through an API?
+
+Yes, you can find API documentation on the digidoppel page here: [https://digidoppel.com/documentation/](https://digidoppel.com/documentation/)
 
 > What am I allowed to do with the generated avatars? Can I share it with my users?
 
@@ -122,4 +161,5 @@ Yes. Please contact us at [info@meshcapade.com](info@meshcapade.com) for help.
 
 You don't need a trial, sign is free and you receive 20 free credits at sign up. You can find out more about pricing here [https://digidoppel.com/pricing/](https://digidoppel.com/pricing/).
 
+ <a href="#digidoppel">Back to top</a>
 
