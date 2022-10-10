@@ -58,6 +58,8 @@ On digidoppel, you can create an avatar using body measurements. Below is a list
 
 [![Wacth on Youtube](https://img.youtube.com/vi/MZD4actpeDw/0.jpg)](https://www.youtube.com/watch?v=MZD4actpeDw)
 
+How does it work? We use machine learning to convert body measurements into an accurate 3D avatar.
+
 ### Measurements descriptions
 
 
@@ -84,9 +86,37 @@ On digidoppel, you can create an avatar using body measurements. Below is a list
 
 ## Output file options
 
+### File formats
+
 All avatars created on digidoppel can be exported as 
-- OBJ (static, posed file)
-- FBX (animated or static file)
+- OBJ (static, posed file): available on web & API
+- FBX (animated or static file): available on web & API
+- PC2 (animated or static file): available only on API
+
+All OBJ and FBX files are fully compatible with game engines and cloth simulation programs.
+
+### Using Meshcapade avatars in CLO3D
+[![Wacth on Youtube](https://img.youtube.com/vi/qVYelkFkkTM/0.jpg)](https://www.youtube.com/watch?v=qVYelkFkkTM)
+
+### Using Meshcapade avatars in Browzwear's VStitcher 
+[![Wacth on Youtube](https://img.youtube.com/vi/l5MlWFmWRts/0.jpg)](https://www.youtube.com/watch?v=l5MlWFmWRts)
+
+Read more about it here: [Bring Meshcapade’s Capabilities Directly to VStitcher](https://browzwear.com/vizualize-your-designs-on-animation-ready-avatars-from-body-measurements-and-scans-with-meshcapades-vstitcher-integration-2/)
+
+### Using Meshcapade avatars in Optitex
+
+Create your animatable avatar from measurements or 3D scans on our platform and select ‘Optitex’ compatibility mode.
+Read more about this mode in our [help guide](https://meshcapade.notion.site/Optitex-Export-Compatibility-Help-Guide-1cb5a280c9884481b96075b8b5793a75).
+
+To enable Optitex Export compatibility, first select “.fbx” as the Output file format, select “animation” as the Output composition, and then select the desired animation sequence:
+
+![image](https://user-images.githubusercontent.com/2546603/194862067-c55ba2c7-9efb-4749-af78-c0b2368b50a2.png)
+
+Then, select “Optitex” as the Compatibility Mode:
+
+![image](https://user-images.githubusercontent.com/2546603/194862281-d348c624-1c70-4a1b-98c5-ebfd13c5fea4.png)
+
+ <a href="#digidoppel">Back to top</a>
 
 ## Animations with digidoppel
 
@@ -116,7 +146,6 @@ Below is our Animation Guide showing what motions are possible with digidoppel. 
 |Wide to Toe Touch          |   <img src="https://digidoppel.com/img/animations/wide_to_toe_touch.gif" alt="Wide to Toe Touch" width="300" />          |
 
  <a href="#digidoppel">Back to top</a>
-
 
 ## FAQs
 
