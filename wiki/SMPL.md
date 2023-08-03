@@ -144,7 +144,7 @@ This body-part segmentation defines part segmentation information for only the S
 The SMPL model's pose parameters in the python model files are defined in Rodrigues formulation. Each triplet of pose-parameters corresponds to one skeleton joint. The joint-name for each pose-parameter-triplet is defined in the mapping below for all 3 variations of the SMPL model. Note that these layouts also show the kinematic tree of the model as used in the SMPL FBX files.
 
 
-a) **SMPL skeleton**:
+a) **SMPL and STAR skeletons**:
 
 ```
      0: 'pelvis',
