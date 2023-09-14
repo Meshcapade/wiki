@@ -128,7 +128,7 @@ Rigged male SMPL model with default texture, animated using motion capture.
 
 ### Body-part segmentation
 
-a) **[SMPL part segmentation](../assets/SMPL_body_segmentation/smpl/smpl_vert_segmentation.json)**
+a) **[SMPL / SMPLH / STAR part segmentation](../assets/SMPL_body_segmentation/smpl/smpl_vert_segmentation.json)**
 This body-part segmentation defines part segmentation information for SMPL, SMPL+H and STAR models.
 
 <img src="../assets/SMPL_body_segmentation/smpl/smpl_segmentation_on_template.png" width="200"/>
