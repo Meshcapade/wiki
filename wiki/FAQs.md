@@ -9,7 +9,7 @@ ___
 
 > How long does a typical model-fit to scan data (500k-1000k vertices, covering most of the scanned body) take, if one would perform the calculations on a normal offline PC (let’s say i7, 32GB Ram)?
 
-The processing for digidoppel.com is online, so your PC setup is not relevant. However, we have created a downloadable version of the software which can run on a PC. For a PC you described (i7, 32GB Ram) the runtime will be between 15-25 minutes. If you would like to find out details of the downloadable software, we can share the licensing details with you.
+The processing for meshcapade.me is online, so your PC setup is not relevant. However, we have created a downloadable version of the software which can run on a PC. For a PC you described (i7, 32GB Ram) the runtime will be between 15-25 minutes. If you would like to find out details of the downloadable software, we can share the licensing details with you.
 
 > Do you recommend specific hardware like graphic cards to speed up the process?
 
@@ -18,7 +18,7 @@ Not at the moment. We are working on GPU-enabled version of the software which w
 > Do you have different “fit-stages” where the parametric model is generated first and other fine-fit procedures are added consecutively?
 
 
-Yes, as you might have already seen on digidoppel.com, when you upload a 3D scan, there is one option called "Refinement". This option allows you to set whether the additional refinement stages are allowed to be run. If this is set to
+Yes, as you might have already seen on meshcapade.me, when you upload a 3D scan, there is one option called "Refinement". This option allows you to set whether the additional refinement stages are allowed to be run. If this is set to
 
 - "none" then the output will be directly from the SMPL model's shape space. Best to use when the input scan is extremely sparse or noisy (e.g. scan have multiple layers of point-cloud surfaces).
 - "low": it will run a refinement stage which allow the vertices for the output mesh to move more freely away from the SMPL model shape parameters. This is best to use if the input 3D scan is noisy (e.g. scans from multi-sensor systems, but also containing spurious scan points that are not expected in our model, like hair, clothing etc).
@@ -47,11 +47,11 @@ An artist might create internal geometry for eyes and mouth for the face, as sho
 ![Face Holes](/assets/FAQs/internal-geo2.png)
 
 Or there the limbs and neck joints might be created as separate geometry objects, so they will have additional geometry where the limb closes off in the 3D model. 
-These internal geometry pieces have to be removed before they can be sent for processing on digidoppel.
+These internal geometry pieces have to be removed before they can be sent for processing on meshcapade.me.
 
 ![Noisy Body](/assets/FAQs/internal-geo3.png)
 
-## Digidoppel API
+## meshcapade.me API
 
 > What exactly is the API?
 
