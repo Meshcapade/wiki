@@ -134,8 +134,8 @@ This body-part segmentation defines part segmentation information for SMPL, SMPL
 <img src="../assets/SMPL_body_segmentation/smpl/smpl_segmentation_on_template.png" width="200"/>
 
 
-b) **[SMPL-X part segmentation](../assets/SMPL_body_segmentation/smplx/smplx_vert_segmentation.json)**
-This body-part segmentation defines part segmentation information for only the SMPL-X model.
+b) **[SMPL-X / SUPR part segmentation](../assets/SMPL_body_segmentation/smplx/smplx_vert_segmentation.json)**
+This body-part segmentation defines part segmentation information for only the SMPL-X & SUPR models.
 
 <img src="../assets/SMPL_body_segmentation/smplx/smplx_segmentation.png" width="200"/>
 
